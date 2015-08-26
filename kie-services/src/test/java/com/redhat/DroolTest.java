@@ -19,7 +19,7 @@ public class DroolTest {
 		Assert.assertNull(greeting.getGreeting());
 
 		// when
-		service.runRules(facts, "ruleflow");
+		service.runRules(facts, "simple.Ruleflow");
 
 		// then
 		Assert.assertEquals("Hello, World!", greeting.getGreeting());
